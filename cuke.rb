@@ -106,6 +106,7 @@ Run the following commands to complete the setup of #{app_name.humanize}:
   bundle
   rails generate rspec:install
   rails generate cucumber:install --rspec --capybara
+  git add .
 
 DOCS
 
