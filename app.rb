@@ -1,5 +1,6 @@
 rvmrc = <<-RVMRC
-rvm ree@#{app_name}
+rvm_gemset_create_on_use_flag=1
+rvm gemset use ree@#{app_name}
 RVMRC
 
 create_file ".rvmrc", rvmrc
