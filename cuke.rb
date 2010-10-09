@@ -100,11 +100,10 @@ Your .rvmrc file assumes you want to use REE. If desired, change at will
 
 Run the following commands to complete the setup of #{app_name.humanize}:
 
-% cd #{app_name}
-% gem install bundler --pre
-% bundle install
-% script/rails generate rspec:install
-% script/rails generate cucumber:install --rspec --capybara
+  cd #{app_name}
+  bundle
+  rails generate rspec:install
+  rails generate cucumber:install --rspec --capybara
 
 DOCS
 
