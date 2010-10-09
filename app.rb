@@ -38,9 +38,7 @@ group :test, :development do
 end
 
 group :test, :development, :staging do
-  # For debugging, use one of the following
-  # gem 'ruby-debug'   # For Ruby 1.8
-  # gem 'ruby-debug19' # For Ruby 1.9
+  gem 'ruby-debug'
 end
 GEMFILE
 
