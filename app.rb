@@ -21,7 +21,7 @@ create_file ".gitignore", gitignore
 
 gemfile = <<-GEMFILE
 
-gem 'rails', '3.0.0'
+gem 'rails', '3.0.1'
 gem 'haml-rails', "0.3.1"
 
 # Console display helpers
@@ -35,7 +35,7 @@ end
 
 group :test, :development do
   gem 'factory_girl_generator', '>= 0.0.1'
-  gem 'rspec-rails', '2.0.0.rc'
+  gem 'rspec-rails', '2.0.1'
 end
 
 group :test, :development, :staging do
